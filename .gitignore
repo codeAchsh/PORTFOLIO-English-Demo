@@ -1,0 +1,44 @@
+# VS Code settings
+.vscode/
+
+# Unnecessary OS files
+.DS_Store
+Thumbs.db
+
+# For npm or package managers (may not be needed now)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Sass and other build-related files (if used in the future)
+*.scssc
+*.sass-cache
+*.log
+
+# Compressed files (protection if accidentally added)
+*.zip
+
+# Personal information and environment settings
+.env
+*.env
+
+# Mac Spotlight and trash files
+.Spotlight-V100
+.Trashes
+
+# Windows trash info
+ehthumbs.db
+Desktop.ini
+
+# Temporary files from image editing software
+*.psd
+*.xcf
+
+# Other temporary editing files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Prevent accidental commits of Git settings backup files
+.gitignore~
